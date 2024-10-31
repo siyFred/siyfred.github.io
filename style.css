@@ -10,6 +10,7 @@
 :root{
     --header: linear-gradient(to right, #880606, #ff8207);
     --main: #fcfcfc;
+    --gabriel: black;
 }
 .container{
     width: 1080px;
@@ -20,7 +21,7 @@
     background: var(--header);
 }
 .background2{
-    background: var(--main);
+    background: var(--gabriel);
     height: 100%;
 }
 .background3{
@@ -55,18 +56,44 @@ nav ul li a{
 }
 
 
-
+main{
+    padding-bottom: 35px;
+}
 main .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 120px 0;
+}
+main .container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 5%;
+    padding-bottom: 30px;
+}
+main .container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
 }
 .main-text{
 
 }
+.main-label{
+    padding: 0 7%;
+    color: white;
+    text-align: justify;
+}
+.main-text h1{
+    color: white;
+}
+.main-text h2{
+    color: white;
+}
 .main-img img{
-    width: 500px;
+    width: 600px;
 }
 
 
@@ -75,8 +102,8 @@ footer{
 }
 .logofooter{
     color: white;
-    height: 50px;
-    padding-top: 15px;
+    height: 90px;
+    padding-top: 0px;
     padding-bottom: 50px;
 }
 .logofooter a{
@@ -99,6 +126,12 @@ footer{
     list-style: none;
     display: inline;
 }
+.llowfooter h4{
+
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
 .llowfooter h5{
 
     text-decoration: none;
@@ -107,6 +140,11 @@ footer{
 }
 
 .llowfooter ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.llowfooter ul li label{
     text-decoration: none;
     color: white;
     font-size: 15px;
