@@ -156,6 +156,10 @@ main .container3{
 }
 
 @media screen and (max-width: 1020px){
+    body{
+        height: auto;
+        width: fit-content;
+    }
     nav ul{
         display: none;
     }
