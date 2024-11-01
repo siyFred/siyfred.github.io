@@ -12,7 +12,10 @@
     --main: #fcfcfc;
     --gabriel: black;
 }
-/* body{} */
+body{
+    height: auto;
+    width: auto;
+}
 .container{
 /*    width: 1080px; */
     padding: 0 0%;
