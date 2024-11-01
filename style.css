@@ -12,10 +12,10 @@
     --main: #fcfcfc;
     --gabriel: black;
 }
-body{
+/* body{
     height: auto;
     width: auto;
-}
+} */
 .container{
 /*    width: 1080px; */
     padding: 0 0%;
@@ -156,10 +156,6 @@ main .container3{
 }
 
 @media screen and (max-width: 1020px){
-    body{
-        height: auto;
-        width: fit-content;
-    }
     nav ul{
         display: none;
     }
@@ -179,7 +175,7 @@ main .container3{
         font-size: 30px;
     }
     .main-img img{
-        width: 400px;
+        width: 380px;
     }
     .main-label h2{
         font-size: 20px;
