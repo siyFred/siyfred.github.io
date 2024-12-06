@@ -34,6 +34,25 @@
     background: var(--header);
     padding: 0 5%;
 }
+.item {
+    padding: 10px;
+    width: 310px;
+    max-width: 310px;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    transform: scale(0.98);
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item label{
+    color: black;
+}
+.item:hover {
+    transform: scale(1);
+}
 nav{
     display: flex;
     align-items: center;
@@ -86,22 +105,43 @@ main .container3{
     align-items: center;
     padding-top: 0;
 }
+main .container33{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
 /* .main-text{} */
+
+.divSearch {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 40px;
+}
+
 .main-label{
-    padding: 0 7%;
+    font-size: 22px;
+    padding: 11% 7%;
+    padding-right: 60px;
     color: white;
-    text-align: justify;
+    align-items: center;
+    justify-content: center;
 }
-.main-text h1{
+.main-search label{
     color: white;
 }
-.main-text h2{
+/*.main-text h2{
     color: white;
 }
 .main-img img{
     width: 600px;
-}
+}*/
 
+.item a{
+    text-decoration: none;
+    color: white;
+}
 
 
 /* footer{} */
@@ -171,8 +211,8 @@ main .container3{
         text-align: center;
         justify-items: center;
     }
-    .main-text h1{
-        font-size: 30px;
+    .main-search label{
+        font-size: 20px;
     }
     .main-img img{
         width: 350px;
